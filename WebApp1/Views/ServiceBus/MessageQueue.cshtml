@@ -1,0 +1,25 @@
+﻿@model SharekloudApp.Models.ServiceBusModels.MessageModel
+@{
+    ViewData["Title"] = "Add to Queue";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+<hr />
+
+<div>Add Message to the Queue</div>
+
+<form action="/ServiceBus/PostMessageToQueue" method="post">
+    <fieldset>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Body)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Body)
+        </div>
+        <p>
+            <input type="submit" value="PostMessageToQueue" />
+        </p>
+    </fieldset>
+</form>
+
+

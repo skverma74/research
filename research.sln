@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp1", "WebApp1\WebApp1.csproj", "{080FAA8A-2A86-4624-9580-52212C45570C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharekloudApp", "WebApp1\SharekloudApp.csproj", "{080FAA8A-2A86-4624-9580-52212C45570C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
